@@ -1,0 +1,106 @@
+*:focus {
+  outline:none;
+}
+
+.App {
+  text-align: center;
+}
+
+.image {
+  width: 60vw;
+  height: 50vh;
+}
+
+.loading {
+  width: 60vw;
+  height: 25vh;
+}
+
+h2 {
+  color: teal;
+}
+
+.App-section {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #4f4a45;
+}
+
+.description {
+  font-size: calc(10px + 0.6vmin);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.picture-viewer {
+  display: flex;
+  align-items: center;
+}
+
+.favourite-today-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  height: 40px;
+  background-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+input {
+  background-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+}
+
+iframe {
+  margin: none;
+  padding: none;
+  border: none;
+  line-height: 0;
+}
+
+.icon {
+  position: relative;
+  top: 5px;
+  left: 3px;
+  color: #efefef;
+}
+
+.favouritedStar {
+  color: gold;
+}
+
+.arrow-button {
+ border-width: 0px;
+ border-color: white;
+ color: teal;
+}
+
+p {
+  font-weight: 600;
+  color: #003232;
+}
+
+.favourite-button > span{
+  position: relative;
+  bottom: 4px;
+}
+
+.clear-button > span{
+  position: relative;
+  bottom: 4px;
+}
+
+.trash-icon {
+  color: black;
+}
